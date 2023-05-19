@@ -1,0 +1,39 @@
+<app-nav4></app-nav4>
+
+<div class='c'>
+    <div class="Register-box">
+    
+    <form     action="">
+        
+        
+        <label for="Companyname">Company Name*</label>
+        <input type="text"  id="company" name="CompanyName" placeholder="Enter Company name" #first  required>
+
+        <label for="jobRole">Job Role*</label>
+        <input type="text" id="job_role"   placeholder="Enter Job Role"  name="JobRole" #second required>
+        
+        <label for="email">Experience*</label>
+        <input type="text" id="exp" name="Experience" placeholder="Experience in years" #third required>
+    
+        <label for="password">Skills*</label>
+        <input type="text" id="skills" name="Skills"   placeholder="Enter your Skill" #fourth required>
+        
+        <label for="Industry_name">Posted Date*</label>
+        <input type="date" id="Date" name="PostedDate" placeholder="Enter Date" #fifth required>
+    
+        <label for="job_type" >Job Type*</label>
+        <input type="radio" id="internship" name="Job_Type" value="Internship" #six required><strong>Internship</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="part_time" name="Job_Type" value="Part Time" #six required><strong>Part Time</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="full_time" name="Job_Type" value="Full TIme" #six required><strong>Full Time</strong>
+        <br>
+        <br>
+        
+        <button type="submit" class="button1" (click)="fun(first.value,second.value,third.value,fourth.value,fifth.value,six.value)"  value="Register">Post</button>
+    </form>
+</div>
+</div>
+
+<div class="shadow rounded display">
+    <h2 class="text-center">You have sucessfully posted a job</h2>
+    <button class="btn text-center btn-primary px-4 m-3" (click)="hide()">OK</button>
+</div>

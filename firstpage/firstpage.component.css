@@ -1,0 +1,22 @@
+
+*{
+    background-color: rgba(189, 209, 220, 0.3);
+}
+.border{
+    text-align: center;
+   max-width:fit-content;
+    max-height:fit-content;
+    margin:100px auto;
+    padding-top:30px;
+}
+.d{border:none;
+    box-shadow:2px 1px 4px 0 black;
+    font-weight:600;
+    padding:8px;
+    margin:4px;
+    
+}
+.b{
+    border:none;
+    background-color: white;
+}

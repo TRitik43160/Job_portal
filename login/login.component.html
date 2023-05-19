@@ -1,0 +1,32 @@
+
+<div class="c">
+
+<div class="login-box">
+    <h2>Employee Login</h2>
+    <form  action="/available">
+      <label for="username">Employee Name*</label>
+   
+      <input type="text" id="username" class="icon1" name="username"  placeholder="Enter your username" required>
+
+      <label for="password">Password*</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password"  required>
+      <!-- "Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"> -->
+      <!-- <div class="instruction">
+        
+        <strong>Must contain</strong><br>
+        <ul>
+       <li> At least one  number,</li>
+        <li>At least one uppercase letter,</li>
+       <li> At least one lowercase letter, </li>
+        <li>At least 8 or more characters.</li>
+        </ul>
+      </div> --><a routerLink="/available" class="text-black text-decoration-none">
+      <button type='submit' class="button1"  >Log In</button></a>
+    
+    </form>
+    <div class="registerme">
+      <p>or Register using</p>
+       <button class="register"><a routerLink="/firstregister" class="text-black text-decoration-none">REGISTER</a></button>
+       </div>
+  </div>
+</div>

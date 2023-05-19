@@ -1,0 +1,109 @@
+
+.c{
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, blue , rgb(255, 0, 247));
+    height: 130vh;
+  }
+
+
+
+.Register-box {
+	background-color: #f2f2f2;
+    position:relative;
+    max-width: 500px;
+    top:50%;
+    left:50%; 
+    transform:translate(-50%,-50%); 
+	/* margin: 0 auto; */
+	padding: 20px;
+    border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+input[name='username'] {
+    background-image: url('src\assets\images\user.png');
+    background-position: 4px 7px;
+    background-repeat: no-repeat;
+}
+input[name='password'] {
+  background-image: url('src\assets\images\pwd.png');
+  background-position: 4px 7px;
+  background-size:27px;
+  background-repeat: no-repeat;
+}
+input[name='confirm-password'] {
+    background-image: url('src\assets\images\confirm.png');
+    background-size:22px;
+    background-position: 7px 7px;
+    background-repeat: no-repeat;
+  }
+  input[type='email'] {
+    background-image: url('src\assets\images\Email.png');
+    background-position: 7px 7px;
+    background-size:27px;
+    background-repeat: no-repeat;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="date"], select {
+	width: 100%;
+	padding: 10px;
+	border-radius: 6px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+     border: 1px solid #ccc;
+}
+input[name="username"], input[type="email"], input[type="password"]{
+    padding-left: 40px;
+}
+
+input[type="radio"] {
+	margin-right: 10px;
+}
+
+.button1 {
+    background-image: linear-gradient(to right, blue , rgb(255, 0, 247));;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .instruction{ 
+    top:38%;
+    left:85%;
+    position: absolute;
+    border:1px solid pink;
+    padding:4px 20px;
+    margin-bottom:2px ;
+    display:none;
+    border-radius: 10px;
+    width:max-content;
+    background-color: #f2f2f2;
+  }
+  
+  .registerme {
+    text-align: center;
+    padding-top: 40px;
+     }
+
+  .register{
+    background-color: #f2f2f2;
+    color:black;
+    text-align:center;
+    border:none;
+    font-weight: 450;
+
+  }

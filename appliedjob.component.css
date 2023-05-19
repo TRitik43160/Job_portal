@@ -1,0 +1,30 @@
+.container{
+    margin:100px 120px;
+}
+
+th,td{
+   
+    border-bottom: 1px solid rgb(219, 213, 213);
+    width:max-content;
+    padding:10px 60px;
+}
+th{ border-top: 1px solid rgb(219, 213, 213);
+    background-color: antiquewhite;
+   
+}
+td{
+    font-weight: 500;
+}
+
+table{
+    margin:100px auto;
+}
+.even{
+    background-color: rgba(211, 216, 218, 0.593);
+}
+
+p{  
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}

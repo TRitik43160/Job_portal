@@ -1,0 +1,28 @@
+
+<app-nav3></app-nav3>
+
+<div class="container">
+    <table class="shadow ">
+    <tr>
+      <th>Company Name</th>
+      <th>Job Role</th>
+      <th>Skills</th>
+      <th>Job Type</th>
+      <th>Experience</th>
+      <th></th>
+    </tr>
+
+    <tr  class="s"  *ngFor="let d of data;let i=index;">
+      <td *ngIf="fun(d)"></td>
+      <td>{{d[0]}}</td>
+      <td>{{d[1]}}</td>
+      <td>{{d[3]}}</td>
+      <td>{{d[5]}}</td>
+      <td>{{d[2]}}</td>
+      <td><a routerLink="/jobapplication" class="text-black text-decoration-none">
+<button class="btn btn-success m-2 px-4 p-2">Apply</button></a></td>
+
+    </tr>  
+  </table>
+  <p class="show">No Job Available!!!</p>
+  </div>

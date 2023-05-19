@@ -1,0 +1,50 @@
+<app-nav3></app-nav3>
+
+<div class='c'>
+    <div class="Register-box">
+    
+    <form     action="">
+        
+        <label for="Companyname">Company Name*</label>
+        <input type="text"  id="company" name="CompanyName" placeholder="Enter Company name" #first  required>
+
+        <label for="Employee name">Employee Name*</label>
+        <input type="text"  id="Employeename" name="EmployeeName" placeholder="Enter Employee name" #second  required>
+
+        <label for="email">Email*</label>
+        <input type="email" id="email" name="Email" placeholder="Enter your Email" #third required>
+
+        <label for="jobRole">Job Role*</label>
+        <input type="text" id="job_role"   placeholder="Enter Job Role"  name="JobRole" #fourth required>
+        
+        <label for="exp">Experience*</label>
+        <input type="text" id="exp" name="Experience" placeholder="Experience in years" #fifth required>
+    
+        <label for="skill">Skills*</label>
+        <input type="text" id="skills" name="Skills"   placeholder="Enter your Skill" #six required>
+
+        <label for="location">Location*</label>
+        <input type="text" id="location" name="location"   placeholder="Enter your Preferred Location" #seven required>
+        
+        <label for="password">Mobile Number*</label>
+        <input type="number" id="skills" name="Skills"   placeholder="Enter your Number" #Eight required>
+
+        <label for="job_type">Job Type*</label>
+        <input type="radio" id="internship" name="Job_Type" value="Internship" #nine required><strong>Internship</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="part_time" name="Job_Type" value="Part Time" #nine required><strong>Part Time</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="full_time" name="Job_Type" value="Full TIme" #nine required><strong>Full Time</strong>
+        <br>
+        <br>
+     
+        <br>
+        <br>
+        
+        <button type="submit" class="button1" (click)="fun(first.value,second.value,third.value,fourth.value,fifth.value,six.value,seven.value,Eight.value,nine.value)"  value="Register">Apply</button>
+    </form>
+</div>
+</div>
+
+<div class="shadow rounded display">
+    <h2 class="text-center">You have sucessfully Applied for a job</h2>
+    <button class="btn text-center btn-primary px-4 m-3" (click)="hide()">OK</button>
+</div>

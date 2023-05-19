@@ -1,0 +1,27 @@
+<app-nav3></app-nav3>
+
+<div class="container  ">
+    <table class="shadow">
+    <tr>
+      <th>Company Name</th>
+      <th>Job Role</th>
+      <th>Job Type</th>
+      <th>Experience</th>
+      <th></th>
+    </tr>
+
+      <tr  class="s"  *ngFor="let d of data;let i=index;">
+      <td *ngIf="fun(d)"></td>
+      <td>{{d[0]}}</td>
+      <td>{{d[3]}}</td>
+      <td>{{d[8]}}</td>
+      <td>{{d[4]}}</td>
+      <td><button class="btn btn-danger m-2 px-4 p-2" >Cancel</button></td>
+    </tr> 
+  
+  </table>
+
+  <p class="para" id="temp"  >You haven't applied yet!!!</p>
+
+  </div>
+

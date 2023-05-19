@@ -1,0 +1,46 @@
+<div class='c'>
+    <div class="Register-box">
+    <h1>Registration Form</h1>
+    <form action="/firstlogin">
+        <label for="username">Company Name*</label>
+        <input type="text" id="username" name="username" placeholder="Enter your Username" required>
+        
+        <label for="email">Email*</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+        
+        <label for="password">Password*</label>
+        <input  (mouseenter)="in()" (mouseleave)="out()" type="password" id="password" name="password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Enter your Password" required>
+        
+        <div  class="instruction">
+        
+            <strong>Must contain</strong><br>
+            <ul>
+           <li> At least one  number,</li>
+            <li>At least one uppercase letter,</li>
+           <li> At least one lowercase letter, </li>
+            <li>At least 8 or more characters.</li>
+            </ul>
+          </div>
+
+        <label for="confirm-password">Confirm Password*</label>
+        <input type="password" id="confirm-password"   placeholder="Please confirm your Password" name="confirm-password" required>
+
+        <!-- <label for="Industry_name">Industry*</label>
+        <input type="text" id="Industry" name="Industry_name" placeholder="Type of Industry" required> -->
+        
+        <label for="country">Location*</label>
+        <select id="country" name="country" required>
+            <option value="India">India</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">UK</option>
+            <option value="USA">USA</option>
+        </select>
+        
+        <button type="submit" class="button1" value="Register">Submit</button>
+    </form>
+    <div class="registerme">
+        <p>or Login using</p>
+         <button class="register"><a routerLink="/firstlogin" class="text-black text-decoration-none">LOG IN</a></button>
+         </div>
+</div>
+</div>

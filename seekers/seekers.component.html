@@ -1,0 +1,39 @@
+<app-nav4></app-nav4>
+
+<div class="container">
+    <table class="shadow">
+    <tr>
+      <th>Seeker Name</th>
+      <th>Seeker Mail</th>
+      <th>Seeker Mobile</th>
+      <th>Experience</th>
+      <th>Seeker Location</th>
+      <th>Skills</th>
+      <th>Applied For</th>
+      <th></th>
+    </tr>
+    
+    <tr  class="s"  *ngFor="let d of data;let i=index;">
+       <td *ngIf="fun(d)"></td>
+      <td  >{{d[1]}}</td>
+      <td>{{d[2]}}</td>
+      <td>{{d[7]}}</td>
+      <td>{{d[4]}}</td>
+      <td>{{d[6]}}</td>
+      <td>{{d[5]}}</td>
+      <td>{{d[3]}}</td>
+      <td class="d-flex">
+        <button class="btn btn-success m-2 px-4 p-2"  >Accept</button>
+        <button class="btn btn-danger m-2 px-4 p-2" >Reject</button>
+      </td>
+      
+    </tr>
+    
+ 
+    
+  </table>
+  <p>No one applied yet!!!</p>
+
+  </div>
+
+
