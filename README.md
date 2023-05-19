@@ -1,1 +1,17 @@
 # Job_portal
+
+![Screenshot (27)](https://github.com/TRitik43160/Job_portal/assets/119338737/d1f762a0-65e9-41b8-884e-22d3606d1146)
+![Screenshot (28)](https://github.com/TRitik43160/Job_portal/assets/119338737/94acd63b-46fb-4118-9674-ea1295611a8d)
+![Screenshot (29)](https://github.com/TRitik43160/Job_portal/assets/119338737/485db481-be55-44eb-b325-379241ede9f7)
+![Screenshot (30)](https://github.com/TRitik43160/Job_portal/assets/119338737/b6fd4979-bd1a-4fb6-9e06-e4cf549cd5c2)
+![Screenshot (31)](https://github.com/TRitik43160/Job_portal/assets/119338737/e99627a5-1fd5-418f-ba25-b88fa03ed4d9)
+![Screenshot (32)](https://github.com/TRitik43160/Job_portal/assets/119338737/d5d98077-577f-4095-9624-651bf11cdd02)
+![Screenshot (33)](https://github.com/TRitik43160/Job_portal/assets/119338737/fe246697-aabd-4488-b746-6adc094cbf00)
+![Screenshot (34)](https://github.com/TRitik43160/Job_portal/assets/119338737/2f566f83-e00f-4f8b-b306-d8d1500493c1)
+![Screenshot (35)](https://github.com/TRitik43160/Job_portal/assets/119338737/09244ccd-4652-4198-88c8-51523f44414c)
+![Screenshot (36)](https://github.com/TRitik43160/Job_portal/assets/119338737/6d71131d-0ff2-4673-a1e0-ed109f087083)
+![Screenshot (37)](https://github.com/TRitik43160/Job_portal/assets/119338737/f4d191d3-07b5-468b-a860-0e0bddd9d505)
+![Screenshot (38)](https://github.com/TRitik43160/Job_portal/assets/119338737/07868a09-9e2d-469e-aad6-e3d1e1077a2d)
+![Screenshot (25) - Copy](https://github.com/TRitik43160/Job_portal/assets/119338737/59c11b9e-1662-4445-b996-24739d4f751d)
+![Screenshot (25)](https://github.com/TRitik43160/Job_portal/assets/119338737/c0412e56-2ba2-4e61-acbf-2287ee20ea3f)
+![Screenshot (26)](https://github.com/TRitik43160/Job_portal/assets/119338737/4020ac11-2de4-45cb-a87b-e1b90eadcfe8)
